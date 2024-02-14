@@ -116,8 +116,6 @@ const createHTML = (outputPath) => {
 }
 
 //Entry point for the application
-
-
 console.log("Let's build your team. Start with the Manager.")
 inquirer.prompt(managerQ)
     .then((answers) => {
